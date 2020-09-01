@@ -5,13 +5,6 @@ favorite_languages = {
 	'phil': 'python',
 }
 
-names = ['jen', 'sarah', 'adward', 'david', 'kurt', 'edgard']
-
-for name in names:
-	if name in favorite_languages.keys():
-		print(f"{name.title()}, thank you for taking the poll.")
-	else:
-		print(f"{name.title()}, please take our poll!")
 	
 
 # 1
@@ -46,3 +39,10 @@ for name in names:
 
 # 6.6 Опрос
 
+names = ['jen', 'sarah', 'adward', 'david', 'kurt', 'edgard']
+
+for name in names:
+	if name in favorite_languages.keys():
+		print(f"{name.title()}, thank you for taking the poll.")
+	else:
+		print(f"{name.title()}, please take our poll!")
