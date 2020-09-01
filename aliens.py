@@ -23,7 +23,7 @@ for alien in aliens[0:3]:
 		alien['speed'] = 'fast'
 		alien['points'] = 15
 
-for alien in aliens[:5]:
+for alien in aliens[:15]:
 	print(alien)
 print("...")
 
