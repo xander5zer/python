@@ -1,9 +1,17 @@
 favorite_languages = {
-	'jen': 'python',
-	'sarah': 'c',
-	'adward': 'ruby',
-	'phil': 'python',
+	'jen': ['python', 'ruby'],
+	'sarah': ['c'],
+	'adward': ['ruby', 'go'],
+	'phil': ['python', 'haskell'],
 }
+
+for name, languages in favorite_languages.items():
+	print(f"\n{name.title()}'s favorite languages are:")
+	for language in languages:
+		print(f"\t{language.title()}")
+
+# 6. Словари
+
 
 	
 
@@ -39,10 +47,10 @@ favorite_languages = {
 
 # 6.6 Опрос
 
-names = ['jen', 'sarah', 'adward', 'david', 'kurt', 'edgard']
+# names = ['jen', 'sarah', 'adward', 'david', 'kurt', 'edgard']
 
-for name in names:
-	if name in favorite_languages.keys():
-		print(f"{name.title()}, thank you for taking the poll.")
-	else:
-		print(f"{name.title()}, please take our poll!")
+# for name in names:
+# 	if name in favorite_languages.keys():
+# 		print(f"{name.title()}, thank you for taking the poll.")
+# 	else:
+# 		print(f"{name.title()}, please take our poll!")
